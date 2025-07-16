@@ -1,0 +1,14 @@
+2025-07-16 15:04:56.388 [info] Extension host with pid 11345 started
+2025-07-16 15:04:56.388 [info] Skipping acquiring lock for /home/mahmud/.config/Code/User/workspaceStorage/66a00f811f924b8e1bd6b7d2a69d7b24.
+2025-07-16 15:04:56.639 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 15:04:56.715 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 15:04:56.757 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-07-16 15:04:57.449 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 15:04:57.484 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 15:04:57.586 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 15:04:57.941 [info] Eager extensions activated
+2025-07-16 15:04:57.947 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:04:57.953 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:04:57.999 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:07:28.379 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 15:07:28.424 [info] Extension host with pid 11345 exiting with code 0

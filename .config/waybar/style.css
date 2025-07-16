@@ -1,0 +1,132 @@
+@define-color background #1a1b26;
+@define-color foreground #a9b1d6;
+@define-color primary #7aa2f7;
+@define-color secondary #9ece6a;
+@define-color alert #f7768e;
+@define-color disabled #565f89;
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrains Mono", "Iosevka Nerd Font", sans-serif;
+    font-size: 12px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: @background;
+    color: @foreground;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: @foreground;
+    border-bottom: 3px solid transparent;
+}
+
+#workspaces button.focused {
+    background: @background;
+    border-bottom: 3px solid @primary;
+}
+
+#workspaces button.urgent {
+    background-color: @alert;
+    color: @background;
+}
+
+#mode {
+    background: @background;
+    border-bottom: 3px solid @primary;
+}
+
+#clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #tray, #mode, #idle_inhibitor, #custom-manjaro, #custom-firefox, #custom-vscode, #custom-discord {
+    padding: 0 8px;
+    margin: 0 2px;
+    color: @foreground;
+}
+
+#clock {
+    font-weight: bold;
+}
+
+#battery {
+    color: @foreground;
+}
+
+#battery.charging {
+    color: @secondary;
+}
+
+@keyframes blink {
+    to {
+        background-color: @foreground;
+        color: @background;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background: @alert;
+    color: @background;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#cpu {
+    color: @secondary;
+}
+
+#temperature {
+    color: @primary;
+}
+
+#temperature.critical {
+    color: @alert;
+}
+
+#backlight {
+    color: @secondary;
+}
+
+#pulseaudio {
+    color: @primary;
+}
+
+#pulseaudio.muted {
+    color: @disabled;
+}
+
+#custom-manjaro {
+    color: @primary;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+#custom-firefox, #custom-vscode, #custom-discord, #customyoutubemsc, #custom-mc {
+    font-size: 14px;
+}
+
+#custom-mc {
+    color: #156702;
+}
+
+#custom-firefox {
+    color: #ff7e00;
+}
+
+#custom-vscode {
+    color: #0078d7;
+}
+
+#custom-discord {
+    color: #5865f2;
+}
+
+#customyoutubemsc {
+    color: #ff7e00
+}

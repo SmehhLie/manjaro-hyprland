@@ -1,0 +1,76 @@
+/**
+ * Wofi Tokyo Night Theme
+ * Couleurs : https://github.com/enkia/tokyo-night-vscode-theme
+ */
+
+window {
+    /* Fond et bordure */
+    margin: 0;
+    border: 2px solid #7aa2f7;
+    border-radius: 8px;
+    background-color: #1a1b26;
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 12px;
+}
+
+#input {
+    /* Champ de recherche */
+    margin: 8px 8px 4px 8px;
+    padding: 8px;
+    border: 2px solid #414868;
+    border-radius: 4px;
+    color: #a9b1d6;
+    background-color: #24283b;
+    font-size: 14px;
+}
+
+#inner-box {
+    /* Conteneur des résultats */
+    margin: 4px 8px;
+    background-color: transparent;
+}
+
+#scroll {
+    /* Scrollbar (invisible par défaut) */
+    margin: 0;
+    border: none;
+}
+
+#entry {
+    /* Items de la liste */
+    margin: 2px 0;
+    padding: 6px 8px;
+    border-radius: 4px;
+    color: #a9b1d6;
+    background-color: transparent;
+}
+
+#entry:selected {
+    /* Item sélectionné */
+    background-color: #414868;
+    border: none;
+    outline: none;
+}
+
+#entry:selected #text {
+    /* Texte de l'item sélectionné */
+    color: #7aa2f7;
+    font-weight: bold;
+}
+
+#text {
+    /* Texte général */
+    margin: 2px;
+    color: #a9b1d6;
+}
+
+#img {
+    /* Icônes (si activées) */
+    margin-right: 8px;
+}
+
+/* Effets dynamiques */
+#entry:focus,
+#entry:hover {
+    background-color: #414868;
+}

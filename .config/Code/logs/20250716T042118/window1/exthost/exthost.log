@@ -1,0 +1,7 @@
+2025-07-16 04:21:22.519 [info] Extension host with pid 3339 started
+2025-07-16 04:21:22.690 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 04:21:22.842 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 04:21:22.853 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 04:21:22.957 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 04:21:23.046 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 04:21:23.058 [info] Extension host with pid 3339 exiting with code 0

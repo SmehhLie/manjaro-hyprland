@@ -1,0 +1,23 @@
+2025-07-16 13:45:07.373 [info] Extension host with pid 1173 started
+2025-07-16 13:45:07.452 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 13:45:07.583 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 13:45:07.610 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 13:45:07.706 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 13:45:07.986 [info] Eager extensions activated
+2025-07-16 13:45:07.989 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 13:45:08.001 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 14:10:50.159 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 14:10:50.205 [info] Extension host with pid 1173 exiting with code 0
+2025-07-16 14:10:52.838 [info] Extension host with pid 3498 started
+2025-07-16 14:10:52.838 [info] Skipping acquiring lock for /home/mahmud/.config/Code/User/workspaceStorage/66a00f811f924b8e1bd6b7d2a69d7b24.
+2025-07-16 14:10:52.905 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 14:10:53.132 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-07-16 14:10:53.145 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 14:10:53.333 [info] Eager extensions activated
+2025-07-16 14:10:53.335 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 14:10:53.340 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 14:10:54.481 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-07-16 14:11:05.650 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-07-16 14:11:05.780 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 14:12:21.830 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-07-16 14:13:14.009 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'

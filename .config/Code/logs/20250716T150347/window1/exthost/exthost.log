@@ -1,0 +1,15 @@
+2025-07-16 15:03:51.817 [info] Extension host with pid 10809 started
+2025-07-16 15:03:51.817 [info] Skipping acquiring lock for /home/mahmud/.config/Code/User/workspaceStorage/66a00f811f924b8e1bd6b7d2a69d7b24.
+2025-07-16 15:03:52.131 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-07-16 15:03:52.206 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-07-16 15:03:52.260 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-07-16 15:03:53.070 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-07-16 15:03:53.091 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-07-16 15:03:53.215 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-07-16 15:03:53.607 [info] Eager extensions activated
+2025-07-16 15:03:53.621 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:03:53.628 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:03:53.673 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-07-16 15:04:09.221 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-07-16 15:04:49.360 [info] Extension host terminating: renderer closed the MessagePort
+2025-07-16 15:04:49.397 [info] Extension host with pid 10809 exiting with code 0

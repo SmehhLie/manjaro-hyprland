@@ -1,0 +1,93 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "spacing": 4,
+  "modules-left": ["custom/firefox", "custom/vscode", "custom/discord", "custom/youtubemsc", "custom/mc"],
+  "modules-center": ["custom/manjaro"],
+  "modules-right": ["pulseaudio", "pulseaudio#microphone", "cpu", "temperature", "backlight", "battery", "clock"],
+  "wlr/workspaces": {
+    "format": "{name}",
+    "on-click": "activate"
+  },
+  "custom/firefox": {
+    "format": "󰈹",
+    "tooltip": false,
+    "on-click": "firefox"
+  },
+  "custom/mc": {
+    "format": "⛏",
+    "tooltip": false,
+    "on-click": "java -jar TL.jar"
+  },
+  "custom/youtubemsc": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "youtube-music --enable-features=UseOzonePlatform --ozone-platform=wayland"
+  },
+  "custom/vscode": {
+    "format": "󰨞",
+    "tooltip": false,
+    "on-click": "code --enable-features=UseOzonePlatform --ozone-platform=wayland"
+  },
+  "custom/discord": {
+    "format": "󰙯",
+    "tooltip": false,
+    "on-click": "discord"
+  },
+  "custom/manjaro": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "wofi --show drun"
+  },
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "󰖁 Muted",
+    "format-icons": {
+      "headphone": "󰋋",
+      "hands-free": "󰋎",
+      "headset": "󰋎",
+      "phone": "󰏲",
+      "portable": "󰏲",
+      "car": "󰄋",
+      "default": ["󰕿", "󰖀", "󰕾"]
+    },
+    "on-click": "pavucontrol"
+  },
+  "pulseaudio#microphone": {
+    "format": "{format_source}",
+    "format-source": "󰍬",
+    "format-source-muted": "󰍭",
+    "on-click": "pavucontrol"
+  },
+  "cpu": {
+    "format": "󰍛 {usage}%",
+    "interval": 5
+  },
+  "temperature": {
+    "format": "󰔄 {temperatureC}°C",
+    "thermal-zone": 0,
+    "hwmon-path": "/sys/class/hwmon/hwmon0/temp1_input",
+    "critical-threshold": 80,
+    "interval": 5
+  },
+  "backlight": {
+    "format": "{icon} {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃠"],
+    "device": "intel_backlight"
+  },
+  "battery": {
+    "format": "{icon} {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "states": {
+      "warning": 30,
+      "critical": 15
+    }
+  },
+  "clock": {
+  "format": "󰥔 {:%H:%M - %d/%m/%Y}",
+  "tooltip-format": "<big>{:%A %d %B %Y}</big>\n\n<tt><small>{calendar}</small></tt>",
+  "interval": 60
+  }
+}
+
