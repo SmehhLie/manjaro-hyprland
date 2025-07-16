@@ -22,15 +22,15 @@ Je voulais une interface moderne, responsive, et super fluide pour le taff comme
 | 💻 OS             | Manjaro Linux (Arch-based)     |
 | 🎨 Thème          | Tokyo Night (Dark)             |
 | 🪄 Bar             | Waybar custom                  |
-| 🔍 Launcher       | Rofi themed                    |
-| 🖥️ Terminal       | Alacritty + Fastfetch          |
+| 🔍 Launcher       | Wofi themed                    |
+| 🖥️ Terminal       | Kitty + Fastfetch          |
 | 📸 Screenshot     | Hyprshot + Grim/Slurp          |
 
 ---
 
 ## 📸 Screenshots
 
-| Bureau | Rofi Launcher | Waybar |
+| Bureau | Wofi Launcher | Waybar |
 |-------|---------------|--------|
 | ![](assets/screen1.png) | ![](assets/screen2.png) | ![](assets/screen3.png) |
 
