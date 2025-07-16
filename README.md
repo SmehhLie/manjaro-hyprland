@@ -36,5 +36,8 @@ Je voulais une interface moderne, responsive, et super fluide pour le taff comme
 
 ---
 
-## 📁 Structure du repo
+## 📁 Installation
+
+`chmod +x install.sh`
+`./install.sh`
 
